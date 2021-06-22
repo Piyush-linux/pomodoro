@@ -1,0 +1,28 @@
+body {
+    background-color: #ecf0f1;
+}
+
+h1 {
+    font-size: 6rem;
+}
+img {
+    width: inherit;
+    height: 50vh;
+}
+
+.row {
+    margin-top: 4rem;
+}
+
+@media screen and (max-width: 500px) {
+    img {
+        height: 40vh;
+    }
+    .row{
+        margin-top: 2.5rem;
+    }
+}
+
+.button.button-primary {
+    background-color: #00BFA6;
+}

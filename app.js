@@ -1,5 +1,5 @@
 var dom = (x) =>document.querySelector(x)
-
+let body = dom('body')
 let mil = 0;
 let sec = 0;
 
