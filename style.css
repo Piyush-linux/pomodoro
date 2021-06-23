@@ -2,6 +2,18 @@ body {
     background-color: #ecf0f1;
 }
 
+.red.button-primary{
+    background-color: #ff7675;
+    color: #ecf0f1;
+    border: none;
+}
+.red.button-primary:hover{
+    background-color: #ff7675;
+}
+
+.hide{
+    display: none;
+}
 h1 {
     font-size: 6rem;
 }
@@ -23,6 +35,10 @@ img {
     }
 }
 
-.button.button-primary {
+.green.button-primary {
+    background-color: #00BFA6;
+    border: none;
+}
+.green.button-primary:hover{
     background-color: #00BFA6;
 }

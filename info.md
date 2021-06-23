@@ -1,5 +1,9 @@
 # Task
-[ ] theme  col
+[x] theme  col
+[ ] strat 25 min
+
+25--
+
 
 
 ```yaml
