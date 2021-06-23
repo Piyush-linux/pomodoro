@@ -51,8 +51,8 @@ let timer_start = () => {
     }
     // 00 :00
     if (mil < 1) {
-        mil = 99
-        spn_mil.innerHTML = 99
+        mil = 59
+        spn_mil.innerHTML = 59
         sec--
         spn_sec.innerHTML = sec
 	     if (sec == 0) {
@@ -75,7 +75,7 @@ let timer_start = () => {
 // }
 // start : pause
 btn_str.onclick = () => {
-    interval = setInterval(timer_start)
+    interval = setInterval(timer_start,1000)
     btn_str.classList.add("hide")
     btn_pau.classList.remove("hide")
     console.log('start')
