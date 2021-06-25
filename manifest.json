@@ -1,0 +1,22 @@
+{
+    "name":"POMODORO",
+    "short_name":"POMO",
+    "start_url":"index.html",
+    "display":"standalone",
+    "background_color":"#00BFA6",
+    "theme_color":"#ff7979",
+    "scope": ".",
+    "description":"This is a Pomodoro timer",
+    "icons":[
+    {
+    "src":"img/icon.png",                     
+    "sizes":"64x64",
+    "type":"image/png"
+    },
+    {
+    "src":"img/icon.svg",
+    "sizes":"512x512",
+    "type":"image/svg"
+    }
+  ]
+}
