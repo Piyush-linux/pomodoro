@@ -4,10 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>POMODORO</title>
-    <link rel="shortcut icon" href="img/icon.png" />
+    <link rel="shortcut icon" href="./img/icon.png" />
     <!-- Meta Tags required for Progressive Web App #00BFA6 -->
   <meta name="apple-mobile-web-app-status-bar" content="#aa7700" />
   <meta name="theme-color" content="#ff7979" />
+  <!-- Splash Screen for iPhone X (1125px x 2436px) -->
+<link rel="apple-touch-startup-image" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3)" href="./img/icon.png">
+<!-- apple -->
+<link rel="apple-touch-icon" href="./img/icon.png">
   <!-- Manifest File link -->
     <link rel="manifest" href="manifest.json" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css" integrity="sha512-EZLkOqwILORob+p0BXZc+Vm3RgJBOe1Iq/0fiI7r/wJgzOFZMlsqTa29UEl6v6U6gsV4uIpsNZoV32YZqrCRCQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -63,7 +67,6 @@
 </body>
 <script type="text/javascript" src="app.js"></script>
 <script>
-    <script>
     window.addEventListener('load', () => {
       registerSW();
     });
@@ -74,7 +77,7 @@
         try {
           await navigator
                 .serviceWorker
-                .register('serviceworker.js');
+                .register('./serviceworker.js');
         }
         catch (e) {
           console.log('SW registration failed');

@@ -5,18 +5,29 @@
     "display":"standalone",
     "background_color":"#00BFA6",
     "theme_color":"#ff7979",
-    "scope": ".",
+    "scope": "/",
     "description":"This is a Pomodoro timer",
     "icons":[
     {
-    "src":"img/icon.png",                     
+    "src":"img/icon0.png",
     "sizes":"64x64",
     "type":"image/png"
     },
     {
-    "src":"img/icon.svg",
+    "src":"img/icon.png",                     
+    "sizes":"128x128",
+    "type":"image/png"
+    },
+    {
+    "src":"img/icon512.png",
     "sizes":"512x512",
-    "type":"image/svg"
+    "type":"image/png"
+    },
+    {
+    "src":"img/maskable.png",
+    "sizes":"128x128",
+    "type":"image/png",
+    "purpose":"maskable"
     }
   ]
 }
