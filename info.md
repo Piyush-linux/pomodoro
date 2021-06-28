@@ -15,4 +15,9 @@
 !asset
 color: 00BFA6 > rgb(85,239,196)
 font: 
+
+!pwa
+manifest.json: [icon , theme , title]
+serviceworker.js:
+meta: [apple-icon , ]
 ```
